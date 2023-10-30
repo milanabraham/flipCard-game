@@ -13,12 +13,41 @@ body{
   min-height: 100vh;
   background: #6563FF;
 }
+
+
 .wrapper{
   padding: 25px;
   border-radius: 10px;
   background: #F8F8F8;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
+
+.score {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px ;
+  background: #6563FF;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #fff;
+}
+
+#restart-button{
+    display: none;
+    padding: 20px;
+  border-radius: 10px ;
+  background: #6563FF;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  margin-left: 160px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+
 .cards, .card, .view{
   display: flex;
   align-items: center;
@@ -115,7 +144,7 @@ body{
 
 footer{
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     font-weight: 600;
     color: #fff;
 }
